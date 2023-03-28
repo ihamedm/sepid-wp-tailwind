@@ -1,0 +1,41 @@
+.nav-menus-php .select2-dropdown .select2-results__option{
+  height: 32px;
+}
+.nav-menus-php .select2-dropdown .select2-results__option svg{
+  height: 32px;
+  width: 32px;
+}
+
+.nav-menus-php .acf-selection{
+  display: inline-block;
+  width: 32px;
+}
+
+.spd-menu-item-icon{
+  width: 64px;
+  height: auto;
+}
+.spd-menu-item-icon svg{
+  max-width: 100%;
+  height: auto;
+}
+
+.spd-btn-style-badge-primary,
+.spd-btn-style-badge-secondary,
+.spd-btn-style-badge-green
+{
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin: 3px 0 3px 10px;
+}
+
+.spd-btn-style-badge-primary{
+  background: hsl(216, 17%, 51%);
+}
+.spd-btn-style-badge-secondary{
+  background: hsl(0, 100%, 44%);
+}
+.spd-btn-style-badge-green{
+  background: #029F00;
+}
