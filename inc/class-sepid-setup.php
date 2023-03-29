@@ -119,7 +119,7 @@ class Setup {
 
 
 	public function add_favicon(){
-		echo "<link rel='shortcut icon' href='" . $this->sepid_asset('assets/images/favicon.png') . "' />" . "\n";
+		echo "<link rel='shortcut icon' href='" . $this->sepid_asset('assets/img/favicon.png') . "' />" . "\n";
 	}
 
 	/**
@@ -132,8 +132,8 @@ class Setup {
 	public function enqueue_scripts() {
 		$version = Helper::get_theme_version();
 
-		wp_enqueue_style( 'sepid', $this->sepid_asset('build/index.css') ,null, $version);
-		wp_enqueue_script( 'sepid', $this->sepid_asset('build/app.js') , null , $version, true );
+		wp_enqueue_style( 'sepid', $this->sepid_asset('dist/styles.css') ,null, $version);
+		wp_enqueue_script( 'sepid', $this->sepid_asset('dist/scripts.js') , null , $version, true );
 
 		if ( (!is_admin()) && is_singular() && comments_open() && get_option('thread_comments') ){
 			wp_enqueue_script( 'comment-reply' );

@@ -23,9 +23,9 @@ class Customize_DOM {
 	}
 
 	public function __construct() {
-		add_action( 'sepid_after_site_footer', array( $this, 'fixed_buttons' ) );
+//		add_action( 'sepid_after_site_footer', array( $this, 'fixed_buttons' ) );
 //		add_action( 'sepid_after_site_footer', array( $this, 'buy_modal' ) );
-        add_filter( 'body_class',array( $this, 'sepid_body_classes') );
+//        add_filter( 'body_class',array( $this, 'sepid_body_classes') );
 
     }
 

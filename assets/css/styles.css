@@ -1,14 +1,9 @@
 @import "tailwindcss/base";
-/*
- * uncomment if adding custom base styles
-@import "./custom-base-styles.css";
-*/
+@import "./custom-base-styles.scss";
+
 
 @import "tailwindcss/components";
-/*
- * uncomment if adding custom commponents
-@import "./custom-components.css";
-*/
+@import "./custom-components.scss";
 
 @import "tailwindcss/utilities";
 @import "./custom-utilities.scss";
